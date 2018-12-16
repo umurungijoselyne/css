@@ -9,14 +9,16 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     
     <link rel="stylesheet" href="css/normalise.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="responsive11.css">
+
+
     
 </head>
 <body>
    <header>
         <h1>Logo</h1>
         <nav>
-            <ul>
+            <ul div id="tet">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">about</a></li>
@@ -25,27 +27,50 @@
         </nav>
    </header>
    
-   <section class="container">
-        <div id="left-section">
+   <section class="container clearfix">
+        <div class="sub-section">
             <img src="https://via.placeholder.com/150" alt="My image">
-            <p>This will change your background color to green. Format of color number is RRGGBB. You know that each color is a combination of three main colors: Red, Green and Blue. In color format RR is value of red component</p>
+            <p>This will change your background<br>
+                 color to green. Format of<br>
+                  color number is RRGGBB.<br>
+                  You know that each color<br>
+                   is a combination of three <br>
+                  main colors: Red, Green and Blue<br>
+                  . In color format <br>
+                  RR is value of red component</p>
         </div>
-        <div id="main-section">
+        <div class="sub-section">
                 <img src="https://via.placeholder.com/150" alt="My image">
-                <p>You can produce 16 million colors in this way but pay attention that not all of the browsers will be capable to show all these colors. So test your web page in 256 colors mode.
+                <p>You can produce 16 million colors in<br>
+                     this way but pay attention that not all of <br>
+                     browsers will be capable to show all these <br>
+                     colors. So test your web page in 256 colors mode.<br>
+        
                </p>
             </div>
 
-            <div id="right-section">
+            <div class="sub-section">
                     <img src="https://via.placeholder.com/150" alt="My image">
                     <p>We can use a background picture for web page instead of background color. You must have a ready image file in .gif or .jpg formats. Now you must extend <BODY> tag as below. "image1.gif" is file name of the image we want to use as background image.
                     </p>
                 </div>
         
    </section>
-
-   <footer>
-        <p>&copy;INFORMATION TECHNOLOGY IT</p>
-   </footer>
+    <div class ="container">
+<form class="button">
+    <h3>contact</h3>
+<br><label for="full name">Full Name</label><br><br>
+<input type="text" id="full" name placeholder="enter full name!!">
+<br><label for="Emai">Email</label><br><br>
+<input type="text" id="email" placeholder="enter your email !!">
+<br><label for="messagel">Message</label>
+<textarea></textarea>
+<div class="submit">
+<input type="submit" name="submit" value="send"></div> 
+</form>
+</div>
+<footer>
+ <p>&copy;INFORMATION TECHNOLOGY IT- 2018</p>
+</footer>
 </body>
 </html>
